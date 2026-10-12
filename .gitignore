@@ -1,0 +1,34 @@
+# PYTHON
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# SECRETS
+.env
+.env.*
+*.key
+*.pem
+credentials.json
+
+# MODEL OUTPUTS
+models/
+logs/
+*.keras
+*.h5
+*.pkl
+*.joblib
+
+# DATA
+bank-full.csv
+bank.csv
+bank.zip
+bank+marketing.zip
+*.parquet
+
+# JUPYTER / OS
+.DS_Store
+Thumbs.db
